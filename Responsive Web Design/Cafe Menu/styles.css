@@ -1,100 +1,119 @@
+/* Styles for the body element */
 body {
-  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-  font-family: sans-serif;
-  padding: 20px;
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); /* Sets a background image */
+  font-family: sans-serif; /* Sets the font family to sans-serif */
+  padding: 20px; /* Adds padding around the body */
 }
 
+/* Styles for h1 elements */
 h1 {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
+  font-size: 40px; /* Sets the font size */
+  margin-top: 0; /* Removes the top margin */
+  margin-bottom: 15px; /* Adds a bottom margin */
 }
 
+/* Styles for h2 elements */
 h2 {
-  font-size: 30px;
+  font-size: 30px; /* Sets the font size */
 }
 
+/* Styles for elements with the class established */
 .established {
-  font-style: italic;
+  font-style: italic; /* Sets the font style to italic */
 }
 
+/* Center-aligns the text of h1, h2, and p elements */
 h1,
 h2,
 p {
   text-align: center;
 }
 
+/* Styles for the menu class */
 .menu {
-  width: 80%;
-  background-color: burlywood;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  max-width: 500px;
+  width: 80%; /* Sets the width to 80% of the parent element */
+  background-color: burlywood; /* Sets the background color */
+  margin-left: auto; /* Centers the menu horizontally */
+  margin-right: auto; /* Centers the menu horizontally */
+  padding: 20px; /* Adds padding inside the menu */
+  max-width: 500px; /* Sets a maximum width */
 }
 
+/* Styles for img elements */
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -25px;
+  display: block; /* Displays the image as a block element */
+  margin-left: auto; /* Centers the image horizontally */
+  margin-right: auto; /* Centers the image horizontally */
+  margin-top: -25px; /* Adds a negative top margin */
 }
 
+/* Styles for hr elements */
 hr {
-  height: 2px;
-  background-color: brown;
-  border-color: brown;
+  height: 2px; /* Sets the height */
+  background-color: brown; /* Sets the background color */
+  border-color: brown; /* Sets the border color */
 }
 
+/* Styles for elements with the class bottom-line */
 .bottom-line {
-  margin-top: 25px;
+  margin-top: 25px; /* Adds a top margin */
 }
 
+/* Sets the font family for h1 and h2 elements */
 h1,
 h2 {
-  font-family: Impact, serif;
+  font-family: Impact, serif; /* Sets the font family to Impact, with serif as a fallback */
 }
 
+/* Styles for paragraphs within the item class */
 .item p {
-  display: inline-block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 18px;
+  display: inline-block; /* Displays the paragraph as an inline-block element */
+  margin-top: 5px; /* Adds a top margin */
+  margin-bottom: 5px; /* Adds a bottom margin */
+  font-size: 18px; /* Sets the font size */
 }
 
+/* Styles for elements with the flavor and dessert classes */
 .flavor,
 .dessert {
-  text-align: left;
-  width: 75%;
+  text-align: left; /* Aligns text to the left */
+  width: 75%; /* Sets the width to 75% of the parent element */
 }
 
+/* Styles for elements with the price class */
 .price {
-  text-align: right;
-  width: 25%;
+  text-align: right; /* Aligns text to the right */
+  width: 25%; /* Sets the width to 25% of the parent element */
 }
 
 /* FOOTER */
 
+/* Styles for the footer element */
 footer {
-  font-size: 14px;
+  font-size: 14px; /* Sets the font size */
 }
 
+/* Styles for elements with the address class */
 .address {
-  margin-bottom: 5px;
+  margin-bottom: 5px; /* Adds a bottom margin */
 }
 
+/* Styles for anchor (a) elements */
 a {
-  color: black;
+  color: black; /* Sets the text color */
 }
 
+/* Styles for visited anchor (a) elements */
 a:visited {
-  color: black;
+  color: black; /* Sets the text color for visited links */
 }
 
+/* Styles for hovered anchor (a) elements */
 a:hover {
-  color: brown;
+  color: brown; /* Sets the text color when hovered */
 }
 
+/* Styles for active anchor (a) elements */
 a:active {
-  color: brown;
+  color: brown; /* Sets the text color when active */
 }
